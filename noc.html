@@ -3105,7 +3105,7 @@
             //
 
             document.getElementById("imageshow").innerHTML =
-              '<iframe src="https://docs.google.com/viewerng/viewer?url=https://kmp.police.gov.bd/assets/upload/' +
+              '<iframe src="' +
               data[0].noc_file +
               '&embedded=true" frameborder="0" height="600px" width="100%"></iframe>';
             document.getElementById("myModalLabel").innerHTML =
@@ -3453,7 +3453,7 @@
             var removedStr = myStr.substring(maxLength, $.trim(myStr).length);
             $(this).empty().html(newStr);
             $(this).append(
-              ' <a href="https://kmp.police.gov.bd/history" class="read-more">read more...</a>'
+              ' <a href="/history.html" class="read-more">read more...</a>'
             );
           }
         });

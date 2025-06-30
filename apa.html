@@ -767,7 +767,6 @@
         });
       }
     </script>
-
     <script>
       $(document).ready(function () {
         var maxLength = 400;
@@ -777,7 +776,9 @@
             var newStr = myStr.substring(0, maxLength);
             var removedStr = myStr.substring(maxLength, $.trim(myStr).length);
             $(this).empty().html(newStr);
-            $(this).append(' <a href="#" class="read-more">read more...</a>');
+            $(this).append(
+              ' <a href="/history.html" class="read-more">read more...</a>'
+            );
           }
         });
       });

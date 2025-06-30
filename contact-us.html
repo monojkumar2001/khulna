@@ -1385,7 +1385,7 @@
             var removedStr = myStr.substring(maxLength, $.trim(myStr).length);
             $(this).empty().html(newStr);
             $(this).append(
-              ' <a href="https://kmp.police.gov.bd/history" class="read-more">read more...</a>'
+              ' <a href="/history.html" class="read-more">read more...</a>'
             );
           }
         });
@@ -1403,22 +1403,6 @@
           }
         });
       });
-    </script>
-    <script>
-      var acc = document.getElementsByClassName("accordions");
-      var i;
-
-      for (i = 0; i < acc.length; i++) {
-        acc[i].addEventListener("click", function () {
-          this.classList.toggle("active");
-          var panel = this.nextElementSibling;
-          if (panel.style.maxHeight) {
-            panel.style.maxHeight = null;
-          } else {
-            panel.style.maxHeight = panel.scrollHeight + "px";
-          }
-        });
-      }
     </script>
   </body>
 </html>
