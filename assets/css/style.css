@@ -1,4 +1,4 @@
-1903
+
 /*------- social color -----*/
 @import url("https://fonts.googleapis.com/css?family=Arimo:400,400i,700,700i");
 @import url("https://fonts.googleapis.com/css?family=Heebo:400,500,700,800,900");
@@ -5139,7 +5139,7 @@ comments-form
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -ms-border-radius: 50%;
-  line-height: 31px;
+  line-height: 14px;
   font-size: 14px;
   color: #000;
 }
