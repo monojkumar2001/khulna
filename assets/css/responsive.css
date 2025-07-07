@@ -109,6 +109,12 @@
     padding-left: 10px;
     padding-bottom: 10px;
   }
+  .boot_slider img {
+    max-height: 312px;
+    height: 312px;
+    object-fit: cover;
+  }
+
   .kmp_head img,
   .staff_imj img,
   .range_intro img {
@@ -524,6 +530,9 @@
 }
 
 @media (max-width: 767px) {
+  .service_new_part img {
+    height: auto;
+  }
   .kmp_photo_gallery img,
   .staff_imj img,
   .range_intro img {
@@ -701,9 +710,7 @@
     width: 100%;
     clear: both;
   }
-  /* .service_new_part img {
-    height: auto;
-  } */
+
   .author-box .authors-social a {
     margin-left: 16px;
   }
