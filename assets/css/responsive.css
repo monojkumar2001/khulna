@@ -1242,4 +1242,13 @@
   #featured-slider-4 .item {
     min-height: 365px;
   }
+  .tmnf_menu ul.menu-type-custom-wrapper {
+    grid-template-columns: 1fr;
+  }
+  .kmp-image-slider .item a img {
+    height: 100%;
+  }
+  .tmnf_menu ul.menu-type-custom-wrapper {
+    margin-bottom: 20px;
+  }
 }
