@@ -57,3 +57,8 @@ ul#menu-block-menu-type-custom-wrapper li a {
   font-size: 20px;
   color: #00a79c;
 }
+.boot_slider img {
+  max-height: 357px;
+  height: 357px;
+  object-fit: cover;
+}

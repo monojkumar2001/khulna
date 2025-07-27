@@ -535,8 +535,8 @@ th {
 }
 
 .boot_slider img {
-  max-height: 412px;
-  height: 412px;
+  max-height: 357px;
+  height: 357px;
   object-fit: cover;
 }
 .boot_slider .carousel-caption p {
