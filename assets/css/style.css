@@ -768,11 +768,10 @@ th {
   color: #fff;
 }
 .staff_imj img {
-  height: 400px;
   width: 100%;
 }
 .staff_intro {
-  padding-top: 90px;
+  padding-top: 40px;
 }
 .staff_intro ul li {
   padding-top: 10px;
@@ -7677,4 +7676,9 @@ featured tab personal blog
   font-size: 14px;
   margin-bottom: 20px;
   display: block;
+}
+
+.staff-btn-item a {
+  width: fit-content;
+  padding: 5px 20px;
 }
